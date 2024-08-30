@@ -1,0 +1,31 @@
+{
+  "name": "calls-queues",
+  "version": "0.0.1",
+  "author": "Uchkun Rakhimov",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.8",
+    "antd": "^5.19.2",
+    "axios": "^1.7.2",
+    "graphql": "^16.9.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-drag-listview": "^2.0.0",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.4"
+  }
+}

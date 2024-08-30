@@ -1,0 +1,71 @@
+#root > * {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.boxStyle {
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.ant-tabs-top > .ant-tabs-nav,
+.ant-tabs-bottom > .ant-tabs-nav,
+.ant-tabs-top > div > .ant-tabs-nav,
+.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0 0 8px 0;
+}
+
+.ant-message.ant-message-top {
+  z-index: 1040;
+}
+
+.ant-select-dropdown .ant-select-item-option-content {
+  white-space: wrap;
+}
+
+.ant-divider .ant-divider-inner-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th,
+.ant-table-wrapper .ant-table-thead > tr > td {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ant-table-cell.ant-table-row-expand-icon-cell,
+.ant-select-selector .ant-select-selection-item span {
+  display: none;
+}
+
+.ant-table-wrapper .ant-table-expand-icon-col {
+  width: auto !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 600;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #444;
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom-color: #ffffff;
+  border-top-color: #3c8dbc;
+  border-top-width: 3px;
+  background: #f4f4f4;
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  border-color: #fff;
+  border-radius: 0 !important;
+  background-color: #ffff;
+}
